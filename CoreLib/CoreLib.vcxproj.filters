@@ -16,12 +16,6 @@
     <Filter Include="ImGui">
       <UniqueIdentifier>{58fa3a93-d30d-4ac2-9c48-5027e5bdde4b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="헤더 파일\Window">
-      <UniqueIdentifier>{4285d941-865a-462f-ad2e-6c64bfb3bee3}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="소스 파일\Window">
-      <UniqueIdentifier>{0c13b86b-8ba9-48e4-8129-d0ae2008cdef}</UniqueIdentifier>
-    </Filter>
     <Filter Include="모듈 파일">
       <UniqueIdentifier>{d96623fa-8c0b-4f22-b749-43f80ccd3410}</UniqueIdentifier>
     </Filter>
@@ -50,6 +44,15 @@
     </ClInclude>
     <ClInclude Include="ThirdParty\ImGui\imstb_truetype.h">
       <Filter>ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicBuffer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderReflection.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderDebug.h">
+      <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
